@@ -1,5 +1,7 @@
 package dsaProblems;
 
+import oops.Student;
+
 import java.util.Scanner;
 
 public class PrimeNumber {
@@ -7,6 +9,8 @@ public class PrimeNumber {
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
         boolean isPrime = true;
+
+        Student s1 = new Student();
 
         if(num < 2){
             System.out.println("Please enter a positive number >= 2");
